@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express openia
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.292-1\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.292-1\jre\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Users\leona\antlr-4.13.1-complete.jar;C:\tools\php83;C:\Program Files\nodejs\;D:\Users\Leonardo\Python\Scripts\;D:\Users\Leonardo\Python\;D:\Users\leona\AppData\Local\Programs\Scripts\;D:\Users\leona\AppData\Local\Programs\;D:\Users\leona\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Git\bin;C:\Users\leona\AppData\Local\Microsoft\WindowsApps;C:\Users\leona\AppData\Local\Android\Sdk\platform-tools;C:\Users\leona\AppData\Local\Yarn\bin;C:\tools\msys64;c:\users\leona\appdata\roaming\python\python310\scripts;c:\users\leona\.local\bin;c:\users\leona\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts;C:\Users\leona\.deno\bin;C:\Users\leona\AppData\Roaming\npm\node_modules\@nestjs\cli\bin;D:\composer;C:\Users\leona\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;D:\Program Files\Maven\apache-maven-3.9.5\bin;D:\php\;C:\Windows\System32;\\wsl.localhost\Ubuntu\home\leonardo\.jdks\openjdk-22-1;C:\tools\mysql\current\bin;C:\Users\leona\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  20.12.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/openia: Not found
+      at params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66140:18)
+      at self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140885:22)
+      at Request.emit (node:events:518:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141857:10)
+      at Request.emit (node:events:518:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141779:12)
+      at Object.onceWrapper (node:events:632:28)
+      at IncomingMessage.emit (node:events:530:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "speech",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
